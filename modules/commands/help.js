@@ -151,10 +151,10 @@ module.exports.run = async function ({ api, event, args, getText }) {
       "⓳",
       "⓴",
     ];
-    msg += `╭ ──────── ╮
+    msg += `╭ SPRIHA CMD ╮
 │ Page ${numberFontPage[currentPage - 1]} of ${
       numberFontPage[totalPages - 1]
-    } │\n╰ ──────── ╯\n`;
+    } │\n╰ SPRIHA CMD╯\n`;
     msg += getText("helpList", commands.size, categoryCount, prefix);
 
     const axios = require("axios");
